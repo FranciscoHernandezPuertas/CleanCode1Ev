@@ -15,8 +15,8 @@ public class DAM1HernandezPuertas_Francisco_NombresNuevo { /*Aquí cambiaríamos
             longitudLado = Integer.valueOf(entradaNumero);
         } while (longitudLado < CERO);
 
-        for (int fila = 0; fila < longitudLado; fila++) {
-            for (int columna = 0; columna < longitudLado; columna++) {
+        for (int fila = CERO; fila < longitudLado; fila++) {
+            for (int columna = CERO; columna < longitudLado; columna++) {
                 System.out.print("#");
                 if (columna < longitudLado - LONGITUD_MINIMA_LADO) {
                     System.out.print(" ");
